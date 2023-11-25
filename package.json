@@ -1,0 +1,53 @@
+{
+  "name": "typescript-starter",
+  "version": "0.1.0",
+  "description": "Typescript starter project",
+  "keywords": [
+    "typescript",
+    "starter"
+  ],
+  "repository": "https://github.com/jellydn/typescript-starter",
+  "license": "MIT",
+  "author": "Huynh Duc Dung",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs",
+    "types": "./dist/index.d.ts"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": "./dist/cli.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pkgroll --env.NODE_ENV=production --minify",
+    "example": "npx tsx ./example/index.ts",
+    "lint": "xo --fix",
+    "prepack": "clean-pkg-json",
+    "test": "vitest --run",
+    "test:dev": "vitest --ui",
+    "test:tsd": "tsd",
+    "typecheck": "tsc --noEmit",
+    "watch": "pkgroll --watch"
+  },
+  "devDependencies": {
+    "@skypack/package-check": "0.2.2",
+    "@vitest/ui": "0.34.6",
+    "clean-pkg-json": "1.2.0",
+    "husky": "8.0.3",
+    "nano-staged": "0.8.0",
+    "pkgroll": "2.0.1",
+    "sort-package-json": "2.6.0",
+    "tsd": "0.29.0",
+    "tsx": "4.5.0",
+    "typescript": "5.3.2",
+    "vite": "5.0.2",
+    "vitest": "0.34.6"
+  },
+  "packageManager": "yarn@1.22.21",
+  "tsd": {
+    "directory": "tests"
+  }
+}
