@@ -1,12 +1,12 @@
 {
   "name": "typescript-starter",
   "version": "0.1.0",
-  "description": "Typescript starter project",
+  "description": "Typescript minimal starter project",
   "keywords": [
     "typescript",
     "starter"
   ],
-  "repository": "https://github.com/jellydn/typescript-starter",
+  "repository": "https://github.com/jellydn/typescript-mini-starter",
   "license": "MIT",
   "author": "Huynh Duc Dung",
   "exports": {
@@ -22,9 +22,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "pkgroll --env.NODE_ENV=production --minify",
+    "prebuild": "yarn clean",
+    "build": "pkgroll --env.NODE_ENV=production --minify --sourcemap",
+    "build:dev": "yarn clean && pkgroll",
+    "clean": "rimraf dist",
     "example": "npx tsx ./example/index.ts",
-    "lint": "xo --fix",
     "prepack": "clean-pkg-json",
     "test": "vitest --run",
     "test:dev": "vitest --ui",
@@ -39,6 +41,7 @@
     "husky": "8.0.3",
     "nano-staged": "0.8.0",
     "pkgroll": "2.0.1",
+    "rimraf": "5.0.5",
     "sort-package-json": "2.6.0",
     "tsd": "0.29.0",
     "tsx": "4.5.0",
