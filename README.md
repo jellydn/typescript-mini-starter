@@ -3,11 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#License)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 
-**A streamlined and efficient TypeScript starter kit for quick project setup.**
+**A streamlined and efficient TypeScript starter kit, supporting both ESM and CJS, for quick and versatile project setups.**
 
 ## 🚀 Introduction
-
-This project provides a minimalistic yet robust starting point for TypeScript development. It's designed to offer a quick and easy setup, enabling developers to jump straight into coding with TypeScript's best practices in mind.
+`typescript-mini-starter` is designed to be a robust and minimalistic starting point for TypeScript development, catering to the modern JavaScript ecosystem. This starter kit uniquely supports both ECMAScript Modules (ESM) and CommonJS (CJS) formats, ensuring compatibility and flexibility for various use cases and environments. Whether you are building a library, an application, or a service, this starter kit provides a quick and easy setup, enabling developers to jump straight into coding with TypeScript's best practices and the versatility of module systems in mind.
 
 ## 📦 Install
 
@@ -48,6 +47,57 @@ yarn test
 ```
 
 This helps in maintaining code quality and catching bugs early.
+
+## 🚚 Using `npx degit` to Scaffold Your Project
+
+Easily scaffold a new TypeScript project with `typescript-mini-starter` using `npx degit`. This method is especially handy for integrating the starter into monorepos or initializing a standalone project quickly.
+
+### For Standalone Projects
+
+1. **Create a new project directory and navigate into it:**
+
+   ```sh
+   mkdir my-new-project
+   cd my-new-project
+   ```
+
+2. **Use `degit` to download the mini-starter template:**
+
+   ```sh
+   npx degit jellydn/typescript-mini-starter
+   ```
+
+3. **Install dependencies and get started:**
+
+   ```sh
+   yarn install
+   ```
+
+### For Monorepos (e.g., with [Turbo](https://turbo.build/repo))
+
+1. **Navigate to your monorepo's packages directory:**
+
+   ```sh
+   cd path/to/your/monorepo/packages
+   ```
+
+2. **Create a new package folder:**
+
+   ```sh
+   mkdir my-new-package
+   cd my-new-package
+   ```
+
+3. **Download the mini-starter template into the new package:**
+
+   ```sh
+   npx degit jellydn/typescript-mini-starter
+   ```
+
+4. **Proceed with your monorepo's workflow to integrate the new package.**
+
+This approach is efficient and reduces the time to set up a new TypeScript project, allowing you to focus more on development.
+
 
 ## 🙌 Credits
 
