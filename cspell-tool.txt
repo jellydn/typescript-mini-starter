@@ -9,3 +9,6 @@ samverschueren
 automerge
 tsbuildinfo
 codepaths
+privatenumber
+tsup
+productsway
