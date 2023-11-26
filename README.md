@@ -5,7 +5,10 @@
 
 **A streamlined and efficient TypeScript starter kit, supporting both ESM and CJS, for quick and versatile project setups.**
 
+[![IT Man - Seamless Transition: Migrating from #CommonJS to #ESM in JavaScript [Vietnamese]](https://i.ytimg.com/vi/VVPFDCyeNyY/hqdefault.jpg)](https://www.youtube.com/watch?v=VVPFDCyeNyY)
+
 ## 🚀 Introduction
+
 `typescript-mini-starter` is designed to be a robust and minimalistic starting point for TypeScript development, catering to the modern JavaScript ecosystem. This starter kit uniquely supports both ECMAScript Modules (ESM) and CommonJS (CJS) formats, ensuring compatibility and flexibility for various use cases and environments. Whether you are building a library, an application, or a service, this starter kit provides a quick and easy setup, enabling developers to jump straight into coding with TypeScript's best practices and the versatility of module systems in mind.
 
 ## 📦 Install
@@ -97,7 +100,6 @@ Easily scaffold a new TypeScript project with `typescript-mini-starter` using `n
 4. **Proceed with your monorepo's workflow to integrate the new package.**
 
 This approach is efficient and reduces the time to set up a new TypeScript project, allowing you to focus more on development.
-
 
 ## 🙌 Credits
 
