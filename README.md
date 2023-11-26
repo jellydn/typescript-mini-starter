@@ -1,6 +1,6 @@
 # Welcome to typescript-mini-starter 👋
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#License)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 
 **A streamlined and efficient TypeScript starter kit for quick project setup.**
@@ -59,6 +59,10 @@ Special thanks to the following projects and their maintainers for their invalua
 
 Their tools and libraries have significantly contributed to the development and functionality of `typescript-mini-starter`.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 ## ✍️ Author
 
 👤 **Huynh Duc Dung**
@@ -72,3 +76,7 @@ Feel free to reach out if you have any questions or suggestions!
 ## 🌟 Show your support
 
 Liked the project? Give it a ⭐️ on [GitHub](https://github.com/jellydn/typescript-mini-starter) to show your support and appreciation!
+
+[![kofi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/dunghd)
+[![paypal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/dunghd)
+[![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
