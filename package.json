@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@skypack/package-check": "0.2.2",
-    "@vitest/ui": "0.34.7",
+    "@vitest/ui": "1.6.0",
     "clean-pkg-json": "1.2.0",
     "husky": "8.0.3",
     "nano-staged": "0.8.0",
@@ -47,7 +47,7 @@
     "tsx": "4.10.5",
     "typescript": "5.4.5",
     "vite": "5.2.11",
-    "vitest": "0.34.6"
+    "vitest": "1.6.0"
   },
   "packageManager": "yarn@1.22.22",
   "tsd": {
