@@ -101,6 +101,14 @@ Easily scaffold a new TypeScript project with `typescript-mini-starter` using `n
 
 This approach is efficient and reduces the time to set up a new TypeScript project, allowing you to focus more on development.
 
+## Pre-commit
+
+This project uses [Pre-Commit](https://pre-commit.com/) to run checks before committing changes. This ensures that the codebase is clean and consistent, maintaining high quality and readability.
+
+```sh
+pre-commit install
+```
+
 ## 🙌 Credits
 
 Special thanks to the following projects and their maintainers for their invaluable contributions:

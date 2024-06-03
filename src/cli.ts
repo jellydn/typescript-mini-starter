@@ -1,4 +1,4 @@
-async function delay(timer:number) {
+async function delay(timer: number) {
 	return new Promise<number>((resolve) => {
 		setTimeout(() => {
 			resolve(timer);
@@ -6,8 +6,6 @@ async function delay(timer:number) {
 	});
 }
 
-delay(500).then(
-	() => {
-		console.log('Hello World from CLI');
-	}
-);
+delay(500).then(() => {
+	console.log("Hello World from CLI");
+});

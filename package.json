@@ -1,56 +1,52 @@
 {
-  "name": "typescript-starter",
-  "version": "0.1.0",
-  "description": "Typescript minimal starter project",
-  "keywords": [
-    "typescript",
-    "starter"
-  ],
-  "repository": "https://github.com/jellydn/typescript-mini-starter",
-  "license": "MIT",
-  "author": "Huynh Duc Dung",
-  "exports": {
-    "require": "./dist/index.js",
-    "import": "./dist/index.mjs",
-    "types": "./dist/index.d.ts"
-  },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "bin": "./dist/cli.js",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "prebuild": "yarn clean",
-    "build": "pkgroll --env.NODE_ENV=production --minify --sourcemap",
-    "build:dev": "yarn clean && pkgroll",
-    "clean": "rimraf dist",
-    "example": "npx tsx ./example/index.ts",
-    "prepack": "clean-pkg-json",
-    "test": "vitest --run",
-    "test:dev": "vitest --ui",
-    "test:tsd": "tsd",
-    "typecheck": "tsc --noEmit",
-    "watch": "pkgroll --watch"
-  },
-  "devDependencies": {
-    "@skypack/package-check": "0.2.2",
-    "@vitest/ui": "1.6.0",
-    "clean-pkg-json": "1.2.0",
-    "husky": "8.0.3",
-    "nano-staged": "0.8.0",
-    "pkgroll": "2.1.1",
-    "rimraf": "5.0.7",
-    "sort-package-json": "2.10.0",
-    "tsd": "0.31.0",
-    "tsx": "4.11.2",
-    "typescript": "5.4.5",
-    "vite": "5.2.12",
-    "vitest": "1.6.0"
-  },
-  "packageManager": "yarn@1.22.22",
-  "tsd": {
-    "directory": "tests"
-  }
+	"name": "typescript-starter",
+	"version": "0.1.0",
+	"description": "Typescript minimal starter project",
+	"keywords": ["typescript", "starter"],
+	"repository": "https://github.com/jellydn/typescript-mini-starter",
+	"license": "MIT",
+	"author": "Huynh Duc Dung",
+	"exports": {
+		"require": "./dist/index.js",
+		"import": "./dist/index.mjs",
+		"types": "./dist/index.d.ts"
+	},
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"bin": "./dist/cli.js",
+	"files": ["dist"],
+	"scripts": {
+		"prebuild": "yarn clean",
+		"build": "pkgroll --env.NODE_ENV=production --minify --sourcemap",
+		"build:dev": "yarn clean && pkgroll",
+		"clean": "rimraf dist",
+		"example": "npx tsx ./example/index.ts",
+		"prepack": "clean-pkg-json",
+		"test": "vitest --run",
+		"test:dev": "vitest --ui",
+		"test:tsd": "tsd",
+		"typecheck": "tsc --noEmit",
+		"watch": "pkgroll --watch"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.7.3",
+		"@skypack/package-check": "0.2.2",
+		"@vitest/ui": "1.6.0",
+		"clean-pkg-json": "1.2.0",
+		"husky": "9.0.11",
+		"nano-staged": "0.8.0",
+		"pkgroll": "2.1.1",
+		"rimraf": "5.0.7",
+		"sort-package-json": "2.10.0",
+		"tsd": "0.31.0",
+		"tsx": "4.11.2",
+		"typescript": "5.4.5",
+		"vite": "5.2.12",
+		"vitest": "1.6.0"
+	},
+	"packageManager": "yarn@1.22.22",
+	"tsd": {
+		"directory": "tests"
+	}
 }
