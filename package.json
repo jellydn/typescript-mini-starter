@@ -30,7 +30,7 @@
 		"watch": "pkgroll --watch"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.1",
+		"@biomejs/biome": "1.9.2",
 		"@skypack/package-check": "0.2.2",
 		"@vitest/ui": "1.6.0",
 		"clean-pkg-json": "1.2.0",
@@ -42,7 +42,7 @@
 		"tsd": "0.31.2",
 		"tsx": "4.19.1",
 		"typescript": "5.6.2",
-		"vite": "5.4.5",
+		"vite": "5.4.6",
 		"vitest": "1.6.0"
 	},
 	"packageManager": "yarn@1.22.22",
