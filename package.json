@@ -34,7 +34,7 @@
 		"@skypack/package-check": "0.2.2",
 		"@vitest/ui": "2.1.5",
 		"clean-pkg-json": "1.2.0",
-		"husky": "9.1.6",
+		"husky": "9.1.7",
 		"nano-staged": "0.8.0",
 		"pkgroll": "2.5.1",
 		"rimraf": "5.0.10",
