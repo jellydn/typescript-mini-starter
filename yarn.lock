@@ -889,10 +889,10 @@ check-error@^2.1.1:
   resolved "https://registry.yarnpkg.com/check-error/-/check-error-2.1.1.tgz#87eb876ae71ee388fa0471fe423f494be1d96ccc"
   integrity sha512-OAlb+T7V4Op9OwdkjmguYRqncdlx5JiofwOAUkmTF+jNdHwzTaTs4sRAGpzLF3oOz5xAyDGrPgeIDFQmDOTiJw==
 
-clean-pkg-json@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/clean-pkg-json/-/clean-pkg-json-1.2.0.tgz#f658e822db48ba13ed4d991e13c2f7821c2ca386"
-  integrity sha512-QHBWWOtpSCv5nfMFKwyxn4WMvkYE0msxj5xiqejYGqYepWVrK7O/om1Vn6nSl/WPtYn8ge9YmSCbTi1Hp8k+Hg==
+clean-pkg-json@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clean-pkg-json/-/clean-pkg-json-1.2.1.tgz#154ae3983899e7a7709fe98b100dd4c855f9146b"
+  integrity sha512-zvQBW4bCn/49SrPI3jj446QugNC3iub/9ZeFKBsCtFxxMRAlyuXTw1I5EqoOLfG1i5261Z4hKLayquHIo+/2HA==
 
 color-convert@^2.0.1:
   version "2.0.1"
