@@ -370,7 +370,7 @@
   resolved "https://registry.yarnpkg.com/@rollup/plugin-alias/-/plugin-alias-5.1.1.tgz#53601d88cda8b1577aa130b4a6e452283605bf26"
   integrity sha512-PR9zDb+rOzkRb2VD+EuKB7UC41vU5DIwZ5qqCpk0KJudcWAyi8rvYOhS7+L5aZCspw1stTViLgN5v6FF1p5cgQ==
 
-"@rollup/plugin-commonjs@^28.0.2":
+"@rollup/plugin-commonjs@^28.0.5":
   version "28.0.5"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-28.0.5.tgz#9d88fbab1fb586accca5b4235813ac3d53078b3c"
   integrity sha512-lytLp2JgAMwqJY6ve3OSROXr2XuEYHjnsQN3hmnxC+w11dI91LuUw4Yc1kk2FqKXeMG8psoFejFgK+znoij0cg==
@@ -410,7 +410,7 @@
   dependencies:
     "@rollup/pluginutils" "^5.1.0"
 
-"@rollup/plugin-node-resolve@^16.0.0":
+"@rollup/plugin-node-resolve@^16.0.1":
   version "16.0.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-16.0.1.tgz#2fc6b54ca3d77e12f3fb45b2a55b50720de4c95d"
   integrity sha512-tk5YCxJWIG81umIvNkSod2qK5KyQW19qcBF/B78n1bjtOON6gzKoVeSzAE8yHCZEDmqkHKkxplExA8KzdJLJpA==
@@ -913,7 +913,7 @@ esbuild@^0.21.3:
     "@esbuild/win32-ia32" "0.21.5"
     "@esbuild/win32-x64" "0.21.5"
 
-esbuild@^0.25.1, esbuild@~0.25.0:
+esbuild@^0.25.5, esbuild@~0.25.0:
   version "0.25.5"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.25.5.tgz#71075054993fdfae76c66586f9b9c1f8d7edd430"
   integrity sha512-P8OtKZRv/5J5hhz0cUAdu/cLuPIKXpQl1R9pZtvmHWQvrAUVd0UNIPT4IB4W3rNOqVO0rlqHmCIbSwxh/c9yUQ==
@@ -1498,21 +1498,21 @@ picomatch@^4.0.2:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.2.tgz#77c742931e8f3b8820946c76cd0c1f13730d1dab"
   integrity sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==
 
-pkgroll@2.12.2:
-  version "2.12.2"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.12.2.tgz#a1dade15fb638f59bb8548a52b82d98be47668be"
-  integrity sha512-Vl1hJ6jQj6YY9xvhuH8qNVf4qEZng9qC5jfqUKIR4+k5HaGdt6TCXj3lI5uNs+Z3ljtdlwMigi5re1YyDDhVxA==
+pkgroll@2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.13.0.tgz#e91a9e032fc94594c885803aa07bea861cba2f67"
+  integrity sha512-JlWEoQW6cevBBOVzpqKZRYOa97dYB08ddKTJZG5hrknOzKKTiZIiFIvUuO/ANbxy3yGHSl1EeTL5AGdHKCDwrw==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
-    "@rollup/plugin-commonjs" "^28.0.2"
+    "@rollup/plugin-commonjs" "^28.0.5"
     "@rollup/plugin-dynamic-import-vars" "^2.1.5"
     "@rollup/plugin-inject" "^5.0.5"
     "@rollup/plugin-json" "^6.1.0"
-    "@rollup/plugin-node-resolve" "^16.0.0"
+    "@rollup/plugin-node-resolve" "^16.0.1"
     "@rollup/pluginutils" "^5.1.4"
-    esbuild "^0.25.1"
+    esbuild "^0.25.5"
     magic-string "^0.30.17"
-    rollup "^4.34.6"
+    rollup "^4.43.0"
     rollup-pluginutils "^2.8.2"
 
 plur@^4.0.0:
@@ -1615,7 +1615,7 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^4.20.0, rollup@^4.34.6:
+rollup@^4.20.0, rollup@^4.43.0:
   version "4.43.0"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-4.43.0.tgz#275c09119eb7eaf0c3dea040523b81ef43c57b8c"
   integrity sha512-wdN2Kd3Twh8MAEOEJZsuxuLKCsBEo4PVNLK6tQWAn10VhsVewQLzcucMgLolRlhFybGxfclbPeEYBaP6RvUFGg==
