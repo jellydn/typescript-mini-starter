@@ -37,7 +37,7 @@
 		"husky": "9.1.7",
 		"nano-staged": "0.8.0",
 		"pkgroll": "2.14.1",
-		"rimraf": "5.0.10",
+		"rimraf": "6.0.1",
 		"sort-package-json": "2.15.1",
 		"tsd": "0.32.0",
 		"tsx": "4.20.3",
