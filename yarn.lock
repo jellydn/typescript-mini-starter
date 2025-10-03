@@ -1514,10 +1514,10 @@ picomatch@^4.0.2, picomatch@^4.0.3:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.3.tgz#796c76136d1eead715db1e7bad785dedd695a042"
   integrity sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==
 
-pkgroll@2.15.4:
-  version "2.15.4"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.15.4.tgz#6edb515a76b008587d71e3e377167bd2d0421716"
-  integrity sha512-oUAVVvFROzFiVhetJTvlcYYUh0EmxRF5CLTd2fDf5EX41G/Mg5I490TEOv6r1qGp8RBaYapTv8+daVot2SMmrg==
+pkgroll@2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.17.0.tgz#5c04af2cad93a52f3004b866e0a3af284e1a47dc"
+  integrity sha512-vvUBECeJlXDH+gbad/RaKpsENZUc6J6HUaLke0uu3dcywBCilDR/Xwf4k+23qjgTWrC4gbadZCoJTaaX+5qvAA==
   dependencies:
     "@rollup/plugin-alias" "^5.1.1"
     "@rollup/plugin-commonjs" "^28.0.6"
